@@ -1,0 +1,26 @@
+{
+  "name": "@slidecraft/mcp-server",
+  "version": "1.1.0",
+  "description": "SlideCraft AI — Standard MCP Server for Claude Desktop, Cursor & Google Docs (1-Click Markdown/Doc to McKinsey Action-Title Slides, 3-Column Cards JSON, Speaker Notes, Standalone HTML Deck & <$50 B2B Team Licensing)",
+  "type": "commonjs",
+  "main": "index.js",
+  "bin": {
+    "slidecraft-mcp": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --test tests/mcp.test.mjs"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "google-slides",
+    "powerpoint",
+    "markdown-to-slides",
+    "mckinsey-deck",
+    "presentation-generator",
+    "claude-desktop",
+    "cursor"
+  ],
+  "license": "MIT"
+}
